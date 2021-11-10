@@ -1,0 +1,83 @@
+.section-team {
+  background-color: var(--light-grey);
+}
+.team-title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team-card-specialist {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-between;
+}
+
+.team-specialist-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  letter-spacing: 0.03em;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+.team-specialist-name {
+  font-size: 16px;
+  line-height: 1.18em;
+  color: var(--grey);
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--blue);
+}
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+  fill: var(--white);
+}
+.team-social-icon {
+  fill: var(--middle-grey);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+.team-social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.team-social-item:last-child {
+  margin-right: 0;
+}
+
+.team-member {
+  padding-top: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,34 @@
+.priorities-enumeration-text {
+  display: flex;
+}
+.priorities:not(:last-child) {
+  margin-right: 30px;
+}
+.priorities-image {
+  width: 270px;
+  height: 120px;
+  border: 1px solid var(--light-grey);
+  border-radius: 4px;
+  background-color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.priorities-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.74em;
+  color: var(--grey);
+  letter-spacing: 0.03em;
+}
+
+.priorities-caption-title {
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
