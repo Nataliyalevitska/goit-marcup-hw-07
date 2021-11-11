@@ -17,10 +17,10 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.brand-logo-icon:hover,
-.brand-logo-icon:focus {
-  border: 2px solid var(--blue);
-  cursor: pointer;
-  fill: var(--blue);
+  &:hover,
+  &:focus {
+    border: 2px solid var(--blue);
+    cursor: pointer;
+    fill: var(--blue);
+  }
 }

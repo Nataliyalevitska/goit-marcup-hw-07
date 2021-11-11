@@ -20,12 +20,12 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button:hover,
-.button:focus {
-  color: var(--white);
-  background-color: var(--blue);
-}
-.button:last-child {
-  margin-right: 0;
+  &:hover,
+  &:focus {
+    color: var(--white);
+    background-color: var(--blue);
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 }

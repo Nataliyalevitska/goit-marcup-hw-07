@@ -1,43 +1,61 @@
 .header {
   border: 1px solid var(--middle-white);
+  &-container {
+    display: flex;
+  }
+  &-logo {
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 1.19em;
+    color: #212121;
+    text-decoration: none;
+    margin-right: 93px;
+    padding: 25px 0;
+  }
+  &-nave {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    padding: 32px 0;
+  }
+  &-tel {
+    margin-left: 30px;
+  }
+  &-icon {
+    margin-right: 10px;
+    fill: var(--grey);
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &-connect {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
 }
-.header-container {
-  display: flex;
-}
+
 .header-nav-container {
   display: flex;
   align-items: center;
 }
-.header-logo {
-  text-transform: capitalize;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.19em;
-  color: #212121;
-  text-decoration: none;
-  margin-right: 93px;
-  padding: 25px 0;
-}
+
 .header-span-logo {
   color: var(--blue);
 }
 .header-list-nave {
   display: flex;
   align-items: center;
+  & .nave {
+    color: var(--blue);
+  }
 }
 .header-item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-nave {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14em;
-  padding: 32px 0;
-}
-.header-list-nave .nave {
-  color: var(--blue);
-}
 .header-liner-studio::after {
   content: "";
   width: 48px;
@@ -58,11 +76,6 @@
   position: absolute;
   top: 79px;
 }
-.header-connect {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
 
 .header-contact {
   display: flex;
@@ -77,23 +90,12 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-icon {
-  margin-right: 10px;
-  fill: var(--grey);
-
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-contact:hover,
-.header-contact:focus {
-  color: var(--blue);
-}
-.header-contact:hover .header-icon,
-.header-contact:focus .header-icon {
-  fill: var(--blue);
-}
-.header-tel {
-  margin-left: 30px;
+  &:hover,
+  &:focus {
+    color: var(--blue);
+    &:hover .header-icon,
+    &:focus .header-icon {
+      fill: var(--blue);
+    }
+  }
 }
