@@ -16,7 +16,7 @@
   background-size: cover;
   background-position: center;
 
-  &-title {
+  &__title {
     margin-bottom: 0;
     font-weight: 900;
     font-size: 44px;
@@ -26,7 +26,7 @@
     margin-bottom: 30px;
   }
 }
-.hero-button {
+.hero__button {
   cursor: pointer;
   font-weight: bold;
   padding: 10px 32px;

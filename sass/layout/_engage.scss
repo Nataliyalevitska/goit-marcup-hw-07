@@ -1,4 +1,4 @@
-.engage-caption-title {
+.engage-caption__title {
   font-size: 36px;
   line-height: 1.16em;
   letter-spacing: 3%;
@@ -10,10 +10,10 @@
   display: flex;
   flex-basis: auto;
   justify-content: space-between;
-  &-thumb {
+  &__thumb {
     position: relative;
   }
-  &-background {
+  &__background {
     position: absolute;
     content: "";
     width: 100%;

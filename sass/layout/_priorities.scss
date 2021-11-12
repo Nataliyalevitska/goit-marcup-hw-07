@@ -1,10 +1,10 @@
-.priorities-enumeration-text {
+.priorities__enumeration_text {
   display: flex;
 }
 .priorities:not(:last-child) {
   margin-right: 30px;
 }
-.priorities-image {
+.priorities__image {
   width: 270px;
   height: 120px;
   border: 1px solid var(--light-grey);
@@ -16,7 +16,7 @@
   margin-bottom: 30px;
 }
 
-.priorities-title {
+.priorities__title {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 14px;
@@ -25,7 +25,7 @@
   letter-spacing: 0.03em;
 }
 
-.priorities-caption-title {
+.priorities__caption__title {
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.03em;
