@@ -24,8 +24,8 @@
   &:focus {
     color: var(--white);
     background-color: var(--blue);
-    &:last-child {
-      margin-right: 0;
-    }
+  }
+  &:last-child {
+    margin-right: 0;
   }
 }
