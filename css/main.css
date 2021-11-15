@@ -281,11 +281,11 @@ body {
   border: 1px solid var(--middle-white);
 }
 
-.header-container {
+.header__container {
   display: flex;
 }
 
-.header-logo {
+.header__logo {
   text-transform: capitalize;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -296,18 +296,18 @@ body {
   padding: 25px 0;
 }
 
-.header-nave {
+.header__nave {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   padding: 32px 0;
 }
 
-.header-tel {
+.header__tel {
   margin-left: 30px;
 }
 
-.header-icon {
+.header__icon {
   margin-right: 10px;
   fill: var(--grey);
   transition-property: fill;
@@ -315,35 +315,35 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-connect {
+.header__connect {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.header-nav-container {
+.header__nav--container {
   display: flex;
   align-items: center;
 }
 
-.header-span-logo {
+.header__logo--span {
   color: var(--blue);
 }
 
-.header-list-nave {
+.header__list--nave {
   display: flex;
   align-items: center;
 }
 
-.header-list-nave .nave {
+.header__list--nave .nave {
   color: var(--blue);
 }
 
-.header-item:not(:last-child) {
+.header__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-liner-studio::after {
+.header__liner--studio::after {
   content: "";
   width: 48px;
   height: 4px;
@@ -354,7 +354,7 @@ body {
   top: 79px;
 }
 
-.header-liner-portfolio::after {
+.header__liner--portfolio::after {
   content: "";
   width: 78px;
   height: 4px;
@@ -365,7 +365,7 @@ body {
   top: 79px;
 }
 
-.header-contact {
+.header__contact {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -379,13 +379,13 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contact:hover, .header-contact:focus {
+.header__contact:hover, .header__contact:focus {
   color: var(--blue);
 }
 
-.header-contact:hover:hover .header-icon,
-.header-contact:hover:focus .header-icon, .header-contact:focus:hover .header-icon,
-.header-contact:focus:focus .header-icon {
+.header__contact:hover:hover .header__icon,
+.header__contact:hover:focus .header__icon, .header__contact:focus:hover .header__icon,
+.header__contact:focus:focus .header__icon {
   fill: var(--blue);
 }
 
